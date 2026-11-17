@@ -22,11 +22,11 @@ Each mapping follows the same structure:
 | Cross-Site Scripting (XSS) | Initial Access → Credential Access → Collection | [xss-cross-site-scripting.md](mappings/xss-cross-site-scripting.md) |
 | SSRF | Initial Access → Discovery → Lateral Movement | [ssrf.md](mappings/ssrf.md) |
 | Insecure Deserialization | Execution → Persistence → Privilege Escalation | [insecure-deserialization.md](mappings/insecure-deserialization.md) |
+| Broken Access Control (IDOR / BOLA) | Discovery → Collection → Privilege Escalation | [broken-access-control.md](mappings/broken-access-control.md) |
 
 ### Planned
 
 - Path Traversal / LFI
-- Broken Access Control (IDOR)
 - Credential Brute Force
 - Dependency Exploit (Known CVE)
 
