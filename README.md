@@ -19,15 +19,16 @@ Each mapping follows the same structure:
 | Vulnerability | Primary ATT&CK Tactic | File |
 |--------------|----------------------|------|
 | SQL Injection | Initial Access → Collection → Credential Access | [sql-injection.md](mappings/sql-injection.md) |
-| Reflected XSS | Initial Access → Credential Access → Collection | [reflected-xss.md](mappings/reflected-xss.md) |
-| Stored XSS | Execution → Persistence → Credential Access | [stored-xss.md](mappings/stored-xss.md) |
+| Cross-Site Scripting (XSS) | Initial Access → Credential Access → Collection | [xss-cross-site-scripting.md](mappings/xss-cross-site-scripting.md) |
 | SSRF | Initial Access → Discovery → Lateral Movement | [ssrf.md](mappings/ssrf.md) |
-| Path Traversal / LFI | Initial Access → Collection → Credential Access | [path-traversal.md](mappings/path-traversal.md) |
 | Insecure Deserialization | Execution → Persistence → Privilege Escalation | [insecure-deserialization.md](mappings/insecure-deserialization.md) |
-| Broken Access Control (IDOR) | Collection → Exfiltration | [broken-access-control.md](mappings/broken-access-control.md) |
-| Command Injection | Execution → Persistence → Lateral Movement | [command-injection.md](mappings/command-injection.md) |
-| Credential Brute Force | Credential Access → Initial Access → Lateral Movement | [credential-brute-force.md](mappings/credential-brute-force.md) |
-| Dependency Exploit (Known CVE) | Initial Access → Execution → Persistence | [dependency-exploit.md](mappings/dependency-exploit.md) |
+
+### Planned
+
+- Path Traversal / LFI
+- Broken Access Control (IDOR)
+- Credential Brute Force
+- Dependency Exploit (Known CVE)
 
 ## References
 
