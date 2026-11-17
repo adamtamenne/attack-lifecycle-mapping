@@ -23,10 +23,10 @@ Each mapping follows the same structure:
 | SSRF | Initial Access → Discovery → Lateral Movement | [ssrf.md](mappings/ssrf.md) |
 | Insecure Deserialization | Execution → Persistence → Privilege Escalation | [insecure-deserialization.md](mappings/insecure-deserialization.md) |
 | Broken Access Control (IDOR / BOLA) | Discovery → Collection → Privilege Escalation | [broken-access-control.md](mappings/broken-access-control.md) |
+| Path Traversal / LFI | Initial Access → Collection → Credential Access | [path-traversal.md](mappings/path-traversal.md) |
 
 ### Planned
 
-- Path Traversal / LFI
 - Credential Brute Force
 - Dependency Exploit (Known CVE)
 
